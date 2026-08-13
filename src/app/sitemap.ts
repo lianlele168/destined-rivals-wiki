@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
+import { TIER_LIST_DATA } from '@/data/wikiData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://destined-rivals-wiki.vercel.app';
 
-  return [
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -23,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/team-builder`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/pack-simulator`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -35,4 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
   ];
+
+  const characterPages: MetadataRoute.Sitemap = TIER_LIST_DATA.map((item) => ({
+    url: `${baseUrl}/characters/${item.id}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...characterPages];
 }

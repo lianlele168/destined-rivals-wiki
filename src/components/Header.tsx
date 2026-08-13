@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Award, Gift, Sparkles, BookOpen } from 'lucide-react';
+import { Award, Gift, Sparkles, BookOpen, Layers } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -40,6 +40,13 @@ export default function Header() {
             <span>Tier List</span>
           </Link>
           <Link
+            href="/team-builder"
+            className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
+          >
+            <Layers className="w-3.5 h-3.5 text-pink-400" />
+            <span>Team Builder</span>
+          </Link>
+          <Link
             href="/pack-simulator"
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
@@ -48,7 +55,7 @@ export default function Header() {
           </Link>
           <Link
             href="/beginners-guide"
-            className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
+            className="hidden md:flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
             <BookOpen className="w-3.5 h-3.5 text-emerald-400" />
             <span>Guide</span>
