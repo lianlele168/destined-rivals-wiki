@@ -28,6 +28,12 @@ export interface CardPackItem {
   imageIcon: string;
 }
 
+export interface GuideSection {
+  title: string;
+  summary: string;
+  tips: string[];
+}
+
 export const ACTIVE_CODES: Code[] = [
   {
     code: "RIVALS2026",
@@ -78,6 +84,12 @@ export const EXPIRED_CODES: Code[] = [
     rewards: "500 Gems",
     status: "Expired",
     addedDate: "April 2026"
+  },
+  {
+    code: "PREORDER2026",
+    rewards: "Special Title 'Destined Pioneer'",
+    status: "Expired",
+    addedDate: "March 2026"
   }
 ];
 
@@ -181,6 +193,38 @@ export const PACK_SIMULATOR_ITEMS: CardPackItem[] = [
   { name: "Frostbite Empress", rarity: "Super Rare", chance: "15.0%", color: "text-cyan-400 border-cyan-500 bg-cyan-950/40", imageIcon: "❄️" },
   { name: "Solar Flare Amulet", rarity: "Rare", chance: "30.0%", color: "text-emerald-400 border-emerald-500 bg-emerald-950/40", imageIcon: "🛡️" },
   { name: "Novice Claymore", rarity: "Common", chance: "40.0%", color: "text-slate-400 border-slate-600 bg-slate-900/40", imageIcon: "⚔️" }
+];
+
+export const BEGINNER_GUIDES: GuideSection[] = [
+  {
+    title: "1. Elemental Counter Mechanics (1.5x Damage)",
+    summary: "Exploit elemental weaknesses to deal 50% extra bonus damage in PvP and Boss Raids.",
+    tips: [
+      "Fire counters Grass & Ice",
+      "Water counters Fire",
+      "Lightning counters Water",
+      "Light and Dark counter each other with 2.0x critical multipliers"
+    ]
+  },
+  {
+    title: "2. Optimal Starter Deck Composition",
+    summary: "Build a balanced 5-card deck to survive early game bosses without grinding.",
+    tips: [
+      "1 Main DPS (S Tier or higher)",
+      "1 Crowd Control (e.g. Frostbite Empress)",
+      "1 Tank / Barrier Card (e.g. Celestial Shield)",
+      "2 Buff / Utility Cards"
+    ]
+  },
+  {
+    title: "3. Gem Farming Strategy (20,000 Gems/Week)",
+    summary: "Maximize daily gem income without spending real money.",
+    tips: [
+      "Complete Daily Quest lines for 1,500 Gems/day",
+      "Participate in 3x Weekly Raid Battles",
+      "Redeem all active Destined Rivals promo codes immediately"
+    ]
+  }
 ];
 
 export const FAQS = [

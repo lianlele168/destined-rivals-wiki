@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { ShieldAlert, Award, Gift, Sparkles, BookOpen } from 'lucide-react';
+import { Award, Gift, Sparkles, BookOpen } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -25,34 +25,34 @@ export default function Header() {
 
         {/* Navigation */}
         <nav className="flex items-center gap-1 sm:gap-4 text-xs font-semibold">
-          <a
-            href="#codes"
+          <Link
+            href="/codes"
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
             <Gift className="w-3.5 h-3.5 text-purple-400" />
             <span>Codes</span>
-          </a>
-          <a
-            href="#tier-list"
+          </Link>
+          <Link
+            href="/tier-list"
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
             <Award className="w-3.5 h-3.5 text-amber-400" />
             <span>Tier List</span>
-          </a>
-          <a
-            href="#pack-simulator"
+          </Link>
+          <Link
+            href="/pack-simulator"
             className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
             <span>Simulator</span>
-          </a>
-          <a
-            href="#redeem-guide"
-            className="hidden md:flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
+          </Link>
+          <Link
+            href="/beginners-guide"
+            className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 transition-colors"
           >
             <BookOpen className="w-3.5 h-3.5 text-emerald-400" />
             <span>Guide</span>
-          </a>
+          </Link>
         </nav>
       </div>
     </header>
