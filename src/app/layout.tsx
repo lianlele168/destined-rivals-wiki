@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   verification: {
-    google: "YOUR_GSC_VERIFICATION_CODE_HERE", // Replace with GSC Code when submitting to Google Search Console
+    google: "K0YFUdYGQH2cucEllkbzoEcKAZoFJ7rGguAERbz2ZGM",
   },
 };
 
