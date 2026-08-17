@@ -36,38 +36,59 @@ export interface GuideSection {
 
 export const ACTIVE_CODES: Code[] = [
   {
-    code: "RIVALS2026",
-    rewards: "5,000 Free Gems + 10x Secret Booster Packs",
+    code: "FREE193",
+    rewards: "3x Free Keys",
     status: "Active",
-    addedDate: "August 2026",
+    addedDate: "August 17, 2026",
     isNew: true
   },
   {
-    code: "DESTINED50K",
-    rewards: "50,000 Gold + Exclusive Legendary Avatar Frame",
+    code: "COCONUTBONK",
+    rewards: "250 Pearls",
     status: "Active",
-    addedDate: "August 2026",
+    addedDate: "August 17, 2026",
     isNew: true
   },
   {
-    code: "SUMMERUPDATE",
-    rewards: "3x Ultra Rare Summon Tickets + 2,500 Gems",
+    code: "RIVALSSUMMER",
+    rewards: "3x Tropical Chests",
     status: "Active",
-    addedDate: "July 2026",
+    addedDate: "August 17, 2026",
+    isNew: true
+  },
+  {
+    code: "COMMUNITY24",
+    rewards: "1x Random Weapon Community Wrap",
+    status: "Active",
+    addedDate: "August 17, 2026",
     isNew: false
   },
   {
-    code: "FREEPACKS99",
-    rewards: "5x Destined Booster Packs",
+    code: "COMMUNITY25",
+    rewards: "1x Community Wrap",
     status: "Active",
-    addedDate: "July 2026",
+    addedDate: "August 17, 2026",
     isNew: false
   },
   {
-    code: "RELEASE2026",
-    rewards: "1,000 Gems + 10,000 Coins Starter Pack",
+    code: "ROBLOX_RTC",
+    rewards: "5x Free Keys",
     status: "Active",
-    addedDate: "June 2026",
+    addedDate: "August 17, 2026",
+    isNew: false
+  },
+  {
+    code: "BONUS",
+    rewards: "1x Free Key",
+    status: "Active",
+    addedDate: "August 17, 2026",
+    isNew: false
+  },
+  {
+    code: "BOOST",
+    rewards: "1x Free Key",
+    status: "Active",
+    addedDate: "August 17, 2026",
     isNew: false
   }
 ];

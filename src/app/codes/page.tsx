@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CopyButton from '@/components/CopyButton';
-import { ACTIVE_CODES, EXPIRED_CODES, FAQS } from '@/data/wikiData';
+import { ACTIVE_CODES, EXPIRED_CODES } from '@/data/wikiData';
 import { Gift, ShieldCheck, HelpCircle, AlertCircle, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -12,8 +12,43 @@ export const metadata: Metadata = {
 };
 
 export default function CodesPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I redeem codes in Destined Rivals?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Open Destined Rivals, click the Settings/Codes icon on the left HUD, enter your promo code into the box, and press Submit.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Why is my Destined Rivals code invalid?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Codes may be case-sensitive or already expired. Ensure you enter exact capitalization and remove trailing spaces.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How often are new Destined Rivals codes released?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'New codes are released during game updates, milestone likes events, and special holiday patches.',
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 selection:bg-purple-500 selection:text-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
 
       <main className="flex-1 max-w-5xl w-full mx-auto px-4 py-8 space-y-10">
@@ -21,7 +56,7 @@ export default function CodesPage() {
         <section className="glass-panel rounded-3xl p-8 border border-purple-500/20 text-center space-y-4 purple-glow">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/80 border border-purple-500/40 text-purple-300 text-xs font-semibold">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>VERIFIED & WORKING CODES • AUGUST 2026</span>
+            <span>VERIFIED & WORKING CODES • AUGUST 17, 2026</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-black text-white">
             Destined Rivals <span className="text-purple-400">Active Codes</span>
@@ -95,3 +130,4 @@ export default function CodesPage() {
     </div>
   );
 }
+
