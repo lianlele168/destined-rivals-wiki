@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { ShieldCheck, Heart } from 'lucide-react';
-import MatrixNav from './MatrixNav';
 
 export default function Footer() {
   return (
@@ -25,8 +24,6 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} Destined Rivals Wiki. All rights reserved.</p>
         </div>
       </div>
-
-      <MatrixNav />
     </footer>
   );
 }
