@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://destined-rivals-wiki.vercel.app';
+  const baseUrl = 'https://destinedrivals.robloxwikihub.com';
 
   return {
     rules: {

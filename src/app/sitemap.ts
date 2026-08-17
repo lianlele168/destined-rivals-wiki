@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { TIER_LIST_DATA } from '@/data/wikiData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://destined-rivals-wiki.vercel.app';
+  const baseUrl = 'https://destinedrivals.robloxwikihub.com';
 
   const staticPages: MetadataRoute.Sitemap = [
     {

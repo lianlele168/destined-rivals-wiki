@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://destined-rivals-wiki.vercel.app'),
+  metadataBase: new URL('https://destinedrivals.robloxwikihub.com'),
   alternates: {
     canonical: '/',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Destined Rivals Codes & Tier List (August 2026)",
     description: "Daily updated active redeem codes, meta tier lists, and pack simulator for Destined Rivals.",
-    url: "https://destined-rivals-wiki.vercel.app",
+    url: "https://destinedrivals.robloxwikihub.com",
     siteName: "Destined Rivals Wiki",
     type: "website",
     locale: "en_US",
@@ -43,7 +43,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Destined Rivals Wiki',
-    url: 'https://destined-rivals-wiki.vercel.app',
+    url: 'https://destinedrivals.robloxwikihub.com',
     description: 'The ultimate Destined Rivals community database with redeem codes, tier lists, and pack simulator.',
   };
 

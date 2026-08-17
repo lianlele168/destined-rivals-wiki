@@ -2,13 +2,13 @@ import React from 'react';
 import { ExternalLink, Sparkles } from 'lucide-react';
 
 export const MATRIX_SITES = [
-  { name: 'Destined Rivals', url: 'https://destined-rivals-wiki.vercel.app', icon: '🗡️', active: true },
-  { name: 'Jujutsu Infinite', url: 'https://jujutsu-infinite-wiki.vercel.app', icon: '⚡' },
-  { name: 'Anime Defenders', url: 'https://anime-defenders-wiki.vercel.app', icon: '🛡️' },
-  { name: 'Fisch Wiki', url: 'https://fisch-wiki.vercel.app', icon: '🎣' },
-  { name: 'Dress to Impress', url: 'https://dti-wiki.vercel.app', icon: '👑' },
-  { name: 'Blade Ball', url: 'https://blade-ball-wiki.vercel.app', icon: '⚔️' },
-  { name: 'Type Soul', url: 'https://type-soul-wiki.vercel.app', icon: '🔮' }
+  { name: 'Anime Defenders', url: 'https://animedefenders.robloxwikihub.com', icon: '🛡️' },
+  { name: 'Jujutsu Infinite', url: 'https://jujutsuinfinite.robloxwikihub.com', icon: '⚡' },
+  { name: 'Fisch Wiki', url: 'https://fisch.robloxwikihub.com', icon: '🎣' },
+  { name: 'Dress to Impress', url: 'https://dti.robloxwikihub.com', icon: '👑' },
+  { name: 'Blade Ball', url: 'https://bladeball.robloxwikihub.com', icon: '⚔️' },
+  { name: 'Destined Rivals', url: 'https://destinedrivals.robloxwikihub.com', icon: '🗡️', active: true },
+  { name: 'Type Soul', url: 'https://typesoul.robloxwikihub.com', icon: '🔮' }
 ];
 
 export const MatrixNav = () => {
