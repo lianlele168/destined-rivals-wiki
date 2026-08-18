@@ -2,22 +2,23 @@ import React from 'react';
 import { ExternalLink, Sparkles } from 'lucide-react';
 
 export const MATRIX_SITES = [
-  { name: 'Anime Defenders', url: 'https://animedefenders.robloxwikihub.com', icon: '🛡️' },
-  { name: 'Jujutsu Infinite', url: 'https://jujutsuinfinite.robloxwikihub.com', icon: '⚡' },
-  { name: 'Fisch Wiki', url: 'https://fisch.robloxwikihub.com', icon: '🎣' },
-  { name: 'Dress to Impress', url: 'https://dti.robloxwikihub.com', icon: '👑' },
-  { name: 'Blade Ball', url: 'https://bladeball.robloxwikihub.com', icon: '⚔️' },
-  { name: 'Destined Rivals', url: 'https://destinedrivals.robloxwikihub.com', icon: '🗡️', active: true },
-  { name: 'Type Soul', url: 'https://typesoul.robloxwikihub.com', icon: '🔮' }
+  { name: 'Destined Rivals', url: 'https://destined-rivals-wiki.vercel.app', icon: '🗡️', active: true },
+  { name: 'RELL SEAS', url: 'https://rell-seas-wiki.vercel.app', icon: '🏴‍☠️' },
+  { name: 'Jujutsu Infinite', url: 'https://jujutsu-infinite-wiki.vercel.app', icon: '⚡' },
+  { name: 'Anime Defenders', url: 'https://anime-defenders-wiki.vercel.app', icon: '🛡️' },
+  { name: 'Fisch Wiki', url: 'https://fisch-wiki.vercel.app', icon: '🎣' },
+  { name: 'Dress to Impress', url: 'https://dti-wiki.vercel.app', icon: '👑' },
+  { name: 'Blade Ball', url: 'https://blade-ball-wiki.vercel.app', icon: '⚔️' },
+  { name: 'Type Soul', url: 'https://type-soul-wiki.vercel.app', icon: '🔮' }
 ];
 
 export const MatrixNav = () => {
   return (
-    <div className="bg-amber-950/40 border-b border-amber-800/30 text-xs py-2 px-4">
+    <div className="bg-[#0b0c16] border-b border-indigo-900/40 text-xs py-2 px-4">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
-        <div className="flex items-center space-x-2 text-amber-300 font-semibold">
-          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-          <span>Roblox Wiki Network Matrix (7 Sites):</span>
+        <div className="flex items-center space-x-2 text-indigo-300 font-semibold">
+          <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+          <span>Roblox Wiki Network Matrix (8 Sites):</span>
         </div>
         <div className="flex flex-wrap items-center gap-3">
           {MATRIX_SITES.map((site) => (
@@ -28,8 +29,8 @@ export const MatrixNav = () => {
               rel="noopener noreferrer"
               className={`inline-flex items-center space-x-1 transition-colors ${
                 site.active
-                  ? 'text-amber-300 font-bold underline decoration-amber-500'
-                  : 'text-gray-400 hover:text-amber-300'
+                  ? 'text-indigo-300 font-bold underline decoration-indigo-500'
+                  : 'text-gray-400 hover:text-indigo-300'
               }`}
             >
               <span>{site.icon}</span>
