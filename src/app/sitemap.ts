@@ -12,31 +12,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/codes`,
+      url: `${baseUrl}/codes/`,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/tier-list`,
+      url: `${baseUrl}/tier-list/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/team-builder`,
+      url: `${baseUrl}/team-builder/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/pack-simulator`,
+      url: `${baseUrl}/pack-simulator/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/beginners-guide`,
+      url: `${baseUrl}/beginners-guide/`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const characterPages: MetadataRoute.Sitemap = TIER_LIST_DATA.map((item) => ({
-    url: `${baseUrl}/characters/${item.id}`,
+    url: `${baseUrl}/character/s/${item.id}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.7,

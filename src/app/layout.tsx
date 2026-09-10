@@ -3,9 +3,6 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://destinedrivals.robloxwikihub.com'),
-  alternates: {
-    canonical: '/',
-  },
   title: "Destined Rivals Codes & Tier List (August 2026) - Active Redeem Codes",
   description: "Get the latest working Destined Rivals redeem codes for free gems, secret booster packs, and rewards. Explore 2026 character & weapon tier lists and pack simulator.",
   keywords: [
