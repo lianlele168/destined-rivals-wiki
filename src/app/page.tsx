@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CopyButton from '@/components/CopyButton';
 import PackSimulator from '@/components/PackSimulator';
+import AuthorCard from '@/components/AuthorCard';
 import { ACTIVE_CODES, EXPIRED_CODES, TIER_LIST_DATA, FAQS, TierItem } from '@/data/wikiData';
 import { Gift, Award, Sparkles, HelpCircle, CheckCircle2, AlertCircle, Search, Filter, ShieldCheck, ChevronDown, Flame } from 'lucide-react';
 
@@ -67,6 +69,39 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* E-E-A-T AUTHOR VERIFICATION */}
+        <AuthorCard />
+
+        {/* GAMEPLAY VISUAL SHOWCASE */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+          <div className="rounded-2xl overflow-hidden border border-indigo-900/40 bg-slate-900/60 p-4 flex flex-col items-center">
+            <Image
+              src="/images/rivals-hero.webp"
+              alt="Destined Rivals Arena Gameplay"
+              width={640}
+              height={360}
+              className="rounded-xl object-cover w-full h-52 border border-indigo-950"
+              priority
+            />
+            <p className="text-xs text-gray-400 mt-2 text-center font-mono">
+              Figure 1: Official Rivals Arena — Ranked 1v1 and 2v2 dueling colosseum.
+            </p>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden border border-indigo-900/40 bg-slate-900/60 p-4 flex flex-col items-center">
+            <Image
+              src="/images/rivals-icon.webp"
+              alt="Destined Rivals Game Icon and Duelist Badges"
+              width={640}
+              height={360}
+              className="rounded-xl object-contain w-full h-52 bg-black/50 border border-indigo-950"
+            />
+            <p className="text-xs text-gray-400 mt-2 text-center font-mono">
+              Figure 2: Official Rivals Emblem — High-stakes duelist combat medals and rank tiers.
+            </p>
+          </div>
+        </div>
 
         {/* ACTIVE CODES SECTION */}
         <section id="codes" className="space-y-6 scroll-mt-20">
