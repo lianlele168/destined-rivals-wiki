@@ -6,8 +6,11 @@ import { ACTIVE_CODES, EXPIRED_CODES } from '@/data/wikiData';
 import { Gift, ShieldCheck, HelpCircle, AlertCircle, Clock } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Destined Rivals Active Codes (August 2026) - Free Gems & Packs",
-  description: "Complete list of active Destined Rivals redeem codes for August 2026. Copy verified promo codes for free gems, coins, and legendary booster packs.",
+  alternates: {
+    canonical: '/codes',
+  },
+  title: "Destined Rivals Active Codes (September 2026) - Free Gems & Packs",
+  description: "Complete list of active Destined Rivals redeem codes for September 2026. Copy verified promo codes for free gems, coins, and legendary booster packs.",
   keywords: ["destined rivals codes", "codes for destined rivals", "destined rivals redeem codes 2026", "free gems destined rivals"]
 };
 

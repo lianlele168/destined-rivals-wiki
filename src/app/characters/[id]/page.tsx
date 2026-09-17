@@ -25,6 +25,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
+    alternates: {
+      canonical: `/characters/${item.id}`,
+    },
     title: `${item.name} Guide - Destined Rivals Stats, Build & Tier Ranking`,
     description: `Detailed guide for ${item.name} in Destined Rivals. View stats, ${item.element} element counters, best card pairings, and tier score.`,
     keywords: [`${item.name} destined rivals`, `destined rivals ${item.name} stats`, `${item.name} build guide`]

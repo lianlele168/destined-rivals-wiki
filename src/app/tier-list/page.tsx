@@ -5,8 +5,11 @@ import { TIER_LIST_DATA } from '@/data/wikiData';
 import { Award, Zap, Shield, Flame } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/tier-list',
+  },
   title: "Destined Rivals Tier List (2026) - Meta Character & Weapon Rankings",
-  description: "Ultimate Destined Rivals tier list ranking all characters, cards, and weapons from S+ to C tier for August 2026 meta raids and PvP.",
+  description: "Ultimate Destined Rivals tier list ranking all characters, cards, and weapons from S+ to C tier for September 2026 meta raids and PvP.",
   keywords: ["destined rivals tier list", "destined rivals character rankings", "destined rivals meta weapon tier list", "best cards destined rivals"]
 };
 
@@ -20,7 +23,7 @@ export default function TierListPage() {
         <section className="glass-panel rounded-3xl p-8 border border-amber-500/20 text-center space-y-4 gold-glow">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-950/80 border border-amber-500/40 text-amber-300 text-xs font-semibold">
             <Award className="w-4 h-4 text-amber-400" />
-            <span>2026 META RANKINGS • AUGUST UPDATE</span>
+            <span>2026 META RANKINGS • SEPTEMBER UPDATE</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-black text-white">
             Destined Rivals <span className="text-amber-400">Meta Tier List</span>

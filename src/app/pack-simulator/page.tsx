@@ -6,6 +6,9 @@ import { PACK_SIMULATOR_ITEMS } from '@/data/wikiData';
 import { Sparkles, Dices, Award } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/pack-simulator',
+  },
   title: "Destined Rivals Pack Simulator - Free Gacha Drop Rates Test",
   description: "Test your luck with our Destined Rivals booster pack simulator. Simulate official pull drop rates for secret ultra cards and legendary weapons.",
   keywords: ["destined rivals pack simulator", "destined rivals drop rates", "destined rivals gacha test", "secret ultra drop chance"]

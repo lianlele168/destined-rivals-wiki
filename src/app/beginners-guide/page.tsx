@@ -8,6 +8,9 @@ import { BEGINNER_GUIDES } from '@/data/wikiData';
 import { BookOpen, CheckCircle, Flame, ShieldAlert, Zap, Swords, Target, HelpCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/beginners-guide',
+  },
   title: "Destined Rivals Beginner's Guide (2026) - Deck Building & Counter Strategy",
   description: "Comprehensive beginner guide for Destined Rivals on Roblox. Learn elemental counter advantages, optimal 5-card deck compositions, and fast gem farming strategies.",
   keywords: ["destined rivals guide", "destined rivals beginners guide", "destined rivals deck build strategy", "destined rivals elemental counter"]
