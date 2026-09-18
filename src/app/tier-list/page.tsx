@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: '/tier-list',
   },
   title: "Destined Rivals Tier List (2026) - Meta Character & Weapon Rankings",
-  description: "Ultimate Destined Rivals tier list ranking all characters, cards, and weapons from S+ to C tier for September 2026 meta raids and PvP.",
+  description: "Ultimate Destined Rivals tier list ranking all characters, cards, and weapons from S+ to C tier for meta raids and PvP.",
   keywords: ["destined rivals tier list", "destined rivals character rankings", "destined rivals meta weapon tier list", "best cards destined rivals"]
 };
 

@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-end gap-2 text-slate-500">
           <div className="flex items-center gap-1.5 text-slate-400">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Updated for August 2026</span>
+            <span>Updated for </span>
           </div>
           <p>© {new Date().getFullYear()} Destined Rivals Wiki. All rights reserved.</p>
         </div>

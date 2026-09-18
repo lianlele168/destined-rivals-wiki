@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://destinedrivals.robloxwikihub.com'),
-  title: "Destined Rivals Codes & Tier List (September 2026) - Active Redeem Codes",
+  title: "Destined Rivals Codes & Tier List - Active Redeem Codes",
   description: "Get the latest working Destined Rivals redeem codes for free gems, secret booster packs, and rewards. Explore 2026 character & weapon tier lists and pack simulator.",
   keywords: [
     "destined rivals codes",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Destined Rivals Wiki Team" }],
   openGraph: {
-    title: "Destined Rivals Codes & Tier List (September 2026)",
+    title: "Destined Rivals Codes & Tier List ",
     description: "Daily updated active redeem codes, meta tier lists, and pack simulator for Destined Rivals.",
     url: "https://destinedrivals.robloxwikihub.com",
     siteName: "Destined Rivals Wiki",

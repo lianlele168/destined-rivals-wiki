@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import CalculatorClient from './CalculatorClient';
 
 export const metadata: Metadata = {
-  title: 'Destined Rivals Weapon DPS Calculator & Stat Optimizer (September 2026)',
+  title: 'Destined Rivals Weapon DPS Calculator & Stat Optimizer ',
   description: 'Interactive DPS and Time-to-Kill (TTK) calculator for Destined Rivals. Calculate effective weapon damage, crit multipliers, and headshot factors.',
   alternates: {
     canonical: '/calculator',

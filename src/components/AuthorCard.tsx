@@ -13,8 +13,8 @@ export default function AuthorCard({
   authorName = 'Dante "Crosshair" Sterling',
   role = 'Lead Combat Strategist & Gacha Odds Analyst',
   experience = '400+ Hours In-Game • Top 50 Ranked Duelist',
-  patchVersion = 'August 2026 Competitive Patch Verified',
-  lastUpdated = 'September 2026',
+  patchVersion = ' Competitive Patch Verified',
+  lastUpdated = '',
   editorialNote = 'All weapon frame data, card pack drop fractions, and synergistic combo damage multipliers are tested in live ranked match environments.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-amber-500/10 text-amber-300 border border-amber-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-gray-400">
-            Updated: <strong className="text-gray-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 

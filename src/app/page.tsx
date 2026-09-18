@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import HomeClient from './HomeClient';
 
 export const metadata: Metadata = {
-  title: 'Destined Rivals Codes & Tier List (September 2026) - Active Redeem Codes',
+  title: 'Destined Rivals Codes & Tier List - Active Redeem Codes',
   description: 'Get the latest working Destined Rivals redeem codes for free gems, secret booster packs, and rewards. Explore 2026 character & weapon tier lists and pack simulator.',
   alternates: {
     canonical: '/',

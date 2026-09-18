@@ -62,7 +62,7 @@ export default function CalculatorClient() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            dateModified: '2026-09-15',
+
             author: {
               '@type': 'Person',
               name: 'Dante "Crosshair" Sterling',

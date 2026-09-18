@@ -39,56 +39,56 @@ export const ACTIVE_CODES: Code[] = [
     code: "FREE193",
     rewards: "3x Free Keys",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: true
   },
   {
     code: "COCONUTBONK",
     rewards: "250 Pearls",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: true
   },
   {
     code: "RIVALSSUMMER",
     rewards: "3x Tropical Chests",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: true
   },
   {
     code: "COMMUNITY24",
     rewards: "1x Random Weapon Community Wrap",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: false
   },
   {
     code: "COMMUNITY25",
     rewards: "1x Community Wrap",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: false
   },
   {
     code: "ROBLOX_RTC",
     rewards: "5x Free Keys",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: false
   },
   {
     code: "BONUS",
     rewards: "1x Free Key",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: false
   },
   {
     code: "BOOST",
     rewards: "1x Free Key",
     status: "Active",
-    addedDate: "August 17, 2026",
+    addedDate: "",
     isNew: false
   }
 ];
@@ -98,19 +98,19 @@ export const EXPIRED_CODES: Code[] = [
     code: "BETA100K",
     rewards: "1,000 Coins",
     status: "Expired",
-    addedDate: "May 2026"
+    addedDate: ""
   },
   {
     code: "LAUNCHDAY",
     rewards: "500 Gems",
     status: "Expired",
-    addedDate: "April 2026"
+    addedDate: ""
   },
   {
     code: "PREORDER2026",
     rewards: "Special Title 'Destined Pioneer'",
     status: "Expired",
-    addedDate: "March 2026"
+    addedDate: ""
   }
 ];
 

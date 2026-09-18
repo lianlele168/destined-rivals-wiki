@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/codes',
   },
-  title: "Destined Rivals Active Codes (September 2026) - Free Gems & Packs",
-  description: "Complete list of active Destined Rivals redeem codes for September 2026. Copy verified promo codes for free gems, coins, and legendary booster packs.",
+  title: "Destined Rivals Active Codes - Free Gems & Packs",
+  description: "Complete list of active Destined Rivals redeem codes for . Copy verified promo codes for free gems, coins, and legendary booster packs.",
   keywords: ["destined rivals codes", "codes for destined rivals", "destined rivals redeem codes 2026", "free gems destined rivals"]
 };
 
@@ -59,7 +59,7 @@ export default function CodesPage() {
         <section className="glass-panel rounded-3xl p-8 border border-purple-500/20 text-center space-y-4 purple-glow">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/80 border border-purple-500/40 text-purple-300 text-xs font-semibold">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>VERIFIED & WORKING CODES • AUGUST 17, 2026</span>
+            <span>VERIFIED & WORKING CODES • </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-black text-white">
             Destined Rivals <span className="text-purple-400">Active Codes</span>
