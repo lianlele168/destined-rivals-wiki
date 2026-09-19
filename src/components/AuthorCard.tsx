@@ -10,9 +10,9 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Dante "Crosshair" Sterling',
-  role = 'Lead Combat Strategist & Gacha Odds Analyst',
-  experience = '400+ Hours In-Game • Top 50 Ranked Duelist',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = ' Competitive Patch Verified',
   lastUpdated = '',
   editorialNote = 'All weapon frame data, card pack drop fractions, and synergistic combo damage multipliers are tested in live ranked match environments.',

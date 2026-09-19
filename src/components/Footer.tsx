@@ -22,6 +22,7 @@ export default function Footer() {
             <span>Updated for </span>
           </div>
           <p>© {new Date().getFullYear()} Destined Rivals Wiki. All rights reserved.</p>
+          <p className="mt-1">Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail.com</p>
         </div>
       </div>
     </footer>
