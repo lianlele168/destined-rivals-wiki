@@ -8,7 +8,11 @@ First, run the development server:
 npm run dev
 # or
 
-> 🎮 **Live site:** [https://destinedrivals.robloxwikihub.com](https://destinedrivals.robloxwikihub.com) — interactive calculators, verified code lists, tier lists & guides.
+> ⛔ **RETIRED — this project now 301-redirects every route to https://rivals.robloxwikihub.com.**
+>
+> "Destined Rivals" is not a Roblox experience. The name belongs to a Pokémon TCG expansion and to a Kirby story mode. Every page here was generated from a fabricated game, and the character roster plus several "active codes" were AI inventions. The project is kept online purely so the URLs leave Google's index via 301 instead of 404ing on the shared root domain. Do not add new content to it.
+>
+> See `indexing-diagnosis/reports/codes-hallucination-screening-2026-09-19.md` in the parent workspace.
 yarn dev
 # or
 pnpm dev
