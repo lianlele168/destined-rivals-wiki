@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Destined Rivals Wiki Team" }],
   openGraph: {
     title: "Destined Rivals Codes & Tier List ",
-    description: "Daily updated active redeem codes, meta tier lists, and pack simulator for Destined Rivals.",
+    description: "Active redeem codes, meta tier lists, and pack simulator for Destined Rivals.",
     url: "https://destinedrivals.robloxwikihub.com",
     siteName: "Destined Rivals Wiki",
     type: "website",

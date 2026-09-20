@@ -65,7 +65,7 @@ export default function CodesPage() {
             Destined Rivals <span className="text-purple-400">Active Codes</span>
           </h1>
           <p className="text-slate-300 text-xs sm:text-sm max-w-xl mx-auto">
-            Updated daily with official promo codes released on Discord and Twitter. Click COPY to claim your rewards in seconds!
+            Official promo codes released on Discord and Twitter, cross-checked against public sources. Click COPY to claim your rewards in seconds!
           </p>
         </section>
 

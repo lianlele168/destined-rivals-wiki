@@ -255,7 +255,7 @@ export const FAQS = [
   },
   {
     question: "Where can I find new Destined Rivals codes?",
-    answer: "We update this page daily with official codes released on the game's Discord, Twitter, and milestone announcements. Bookmark this page to never miss free gems!"
+    answer: "We track the official codes released on the game's Discord, Twitter, and milestone announcements. Bookmark this page to never miss free gems!"
   },
   {
     question: "Why is my Destined Rivals code not working?",
