@@ -48,8 +48,8 @@ export default function BeginnersGuidePage() {
 
             author: {
               '@type': 'Person',
-              name: 'Dante "Crosshair" Sterling',
-              jobTitle: 'Lead Combat Strategist & Gacha Odds Analyst',
+              name: 'Hlele',
+              jobTitle: 'Editor',
             },
             mainEntity: BEGINNER_FAQS.map((faq) => ({
               '@type': 'Question',

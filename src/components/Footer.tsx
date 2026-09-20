@@ -12,7 +12,7 @@ export default function Footer() {
             <span>Destined Rivals Wiki & Codes Hub</span>
           </div>
           <p className="max-w-md text-slate-500">
-            Unofficial community guide database for Destined Rivals. Providing active redeem codes, tier lists, and gameplay guides updated daily.
+            Unofficial community guide database for Destined Rivals. Providing active redeem codes, tier lists, and gameplay guides.
           </p>
         </div>
 

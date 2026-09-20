@@ -13,9 +13,9 @@ export default function AuthorCard({
   authorName = 'Hlele',
   role = 'Editor',
   experience = 'AI-assisted research, human-reviewed',
-  patchVersion = ' Competitive Patch Verified',
+  patchVersion = ' Competitive Patch',
   lastUpdated = '',
-  editorialNote = 'All weapon frame data, card pack drop fractions, and synergistic combo damage multipliers are tested in live ranked match environments.',
+  editorialNote = 'All data is compiled from public sources and community wikis. Any figure we could not confirm from a public source is labeled as unverified rather than estimated.',
 }: AuthorCardProps) {
   return (
     <div className="w-full rounded-2xl bg-[#111827]/90 border border-indigo-900/40 p-4 sm:p-5 backdrop-blur-md my-6 shadow-xl font-sans">
@@ -28,7 +28,7 @@ export default function AuthorCard({
             <div className="flex items-center space-x-2">
               <span className="font-bold text-white text-sm sm:text-base">{authorName}</span>
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                ✓ Expert Verified
+                Independent editorial
               </span>
             </div>
             <p className="text-xs text-gray-400 mt-0.5">

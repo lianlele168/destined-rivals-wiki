@@ -65,8 +65,8 @@ export default function CalculatorClient() {
 
             author: {
               '@type': 'Person',
-              name: 'Dante "Crosshair" Sterling',
-              jobTitle: 'Lead Combat Strategist & Gacha Odds Analyst',
+              name: 'Hlele',
+              jobTitle: 'Editor',
             },
             mainEntity: CALCULATOR_FAQS.map((faq) => ({
               '@type': 'Question',
