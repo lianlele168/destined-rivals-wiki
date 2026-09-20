@@ -59,7 +59,7 @@ export default function CodesPage() {
         <section className="glass-panel rounded-3xl p-8 border border-purple-500/20 text-center space-y-4 purple-glow">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/80 border border-purple-500/40 text-purple-300 text-xs font-semibold">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>VERIFIED & WORKING CODES • </span>
+            <span>WORKING CODES • </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-black text-white">
             Destined Rivals <span className="text-purple-400">Active Codes</span>
